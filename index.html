@@ -26,7 +26,7 @@
         }
 
         .foto-perfil {
-            height: 50%%;
+            height: 50%;
             max-width: 50%;
         }
 
@@ -192,11 +192,19 @@
 
         <section Id="contato" class="corPrimaria">
             <div class="corPrimaria">
-                <div class="container-fluid">
-                    <h3 style="padding-top:90px;" class="text-center titulosBrancos">You can find me:</h3>
-                    <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
-                            href="mailto:seuemail@hotmail.com">ehps@academico.ufpb.br</a>👈</a></h4>
-                </div>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone"><br><br>
+                    
+                    <button type="button" id="submit">Enviar</button>
+                </form>
+                  
             </div>
         </section>
         <section id="mapa">
@@ -208,6 +216,7 @@
                 Henrique de Pádua®
             </p>
         </footer>
+        <script src="script/script.js"></script>
 
     </body>
 
